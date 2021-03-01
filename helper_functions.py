@@ -68,4 +68,8 @@ def print_welcome(idx):
     elif idx == 1:
         print("t -     STATE  -  ACTION - COST")
         print("================================")
+        
+
+def custom_round(x, base=1):
+    return int(base * round(x/base))
     
